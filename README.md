@@ -19,8 +19,9 @@ Arquivo B | versão 1 | versão 2
 ## Criar a conta no Github
 
 ## Clonar o projeto 
+git clone https://github.com/josefino-pedro-114a93269/curso-frontendnew.git
 
-## Commits
+# Commits
 Informação de alteração
 - após testado todo seu código
 
