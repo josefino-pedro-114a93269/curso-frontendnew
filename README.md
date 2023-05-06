@@ -24,6 +24,8 @@ git clone https://github.com/josefino-pedro-114a93269/curso-frontendnew.git
 # Commits
 Informação de alteração
 - após testado todo seu código
+- git add *
+-git commit -m "mensagem"
 
 
 ## GitFlow
