@@ -1,5 +1,5 @@
 # curso-frontend
-#### EBAC
+
 # GIT
 ## Conceitos de versionamento
 - Histórico
@@ -25,7 +25,8 @@ git clone https://github.com/josefino-pedro-114a93269/curso-frontendnew.git
 Informação de alteração
 - após testado todo seu código
 - git add *
--git commit -m "mensagem"
+- git commit -m "mensagem"
+- git push (enviar alterações para o repositório)
 
 
 ## GitFlow
