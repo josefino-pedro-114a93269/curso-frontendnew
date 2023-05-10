@@ -132,3 +132,12 @@ footer small {
     font-size: 80%;
     display: block;
 }
+
+
+.cog-abuse-cog-wrapper {
+    visibility: hidden !important;
+}
+
+.cog-branding-cog-branding-minimal {
+    visibility: hidden !important;
+}
