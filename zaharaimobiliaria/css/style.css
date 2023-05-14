@@ -63,6 +63,22 @@ p {
     color: #333;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#tenho-interesse {
+    background-color: #b8c8d6;
+    width: 100%;
+}
+
+#tenho-interesse form,
+.cognito.c-med .c-forms-form,
+.cognito.c-med .c-forms-form div {
+    background-color: #b8c8d6 !important;
+}
+
 ol {
     margin-left: 30px;
 }
@@ -134,3 +150,4 @@ footer small {
     font-size: 80%;
     display: block;
 }
+
