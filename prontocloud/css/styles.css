@@ -191,16 +191,15 @@ footer small {
 
 .legenda {
     background-color: rgba(255, 255, 255, .6);
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
-    margin-bottom: 5rem;
+    float: right;
     
 }
 
 .legenda h5,
 .legenda h4 {
     color: #254159;
-    line-height: 150%;
 }
 
 .button-cta {
