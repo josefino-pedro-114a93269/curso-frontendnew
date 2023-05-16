@@ -159,12 +159,9 @@ footer small {
     display: block;
 }
 
-.cog-abuse_cog-wrapper {
-    visibility: hidden !important;
-}
-
-.cog-branding_cog-branding--minimal {
-    visibility: hidden !important;
+.cognito {
+    height: 400px !important;
+    overflow: hidden !important;
 }
 
  
@@ -255,6 +252,7 @@ dd {
     font-size: 1.4rem;
 }
 
+
 /* Mobile First *//* Mobile First */
 
   /* Smartphone */
@@ -266,7 +264,6 @@ dd {
       min-width: 320px;
     }
   }
-  
   
 
 
