@@ -14,6 +14,7 @@ body {
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
+
 }
 
 .container {
@@ -26,7 +27,7 @@ body {
 }
 
 header {
-    background: #fff;
+    background-color: #fff;
     display: block;
     float: left;
     padding: 20px 0;
@@ -37,20 +38,19 @@ header {
 h1 {
     font-size: 2.4rem;
     color: #254159;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 h2 {
     font-size: 2rem;
     color: #254159;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 h3 {
     font-size: 1.8rem;
     color: #254159;
     margin-bottom: 20px;
-    padding-top: 10px;
 }
 
 h4 {
@@ -66,7 +66,7 @@ p {
     color: #333;
 }
 
-image {
+img {
     max-width: 100%;
     height: auto;
 }
@@ -77,18 +77,18 @@ image {
 }
 
 #tenho-interesse form,
-.cog-form__container,
-.cog-form__container div {
+.cognito.c-med .c-forms-form,
+.cognito.c-med .c-forms-form div {
     background-color: #fff !important;
 }
 
-#tenho-interesse .cog-cognito--styled .cog-header h1,
+#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
 #tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
     color: #385874;
-}   
+}
 
 ol {
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 ol li {
@@ -102,14 +102,13 @@ section {
     float: left;
     font-size: 1.5rem; /* equivalente a 15px */
     padding: 20px 0;
-    width: 100%;
+    width: 100%; 
 }
 
 section nav {
     display: block;
     float: left;
     width: 30%;
-    
 }
 
 nav li {
@@ -140,66 +139,59 @@ section article {
 
 footer {
     background-color: #254159;
+    color: #ffffff;
     display: block;
     float: left;
     padding: 20px 0;
     width: 100%;
+
 }
+
 
 footer p {
     color: #ffffff;
-    font-size: 1.4rem; 
+    font-size: 1.4rem;
 }
+
 
 footer small {
     font-size: 80%;
     display: block;
 }
 
-
 .cognito {
     height: 400px !important;
     overflow: hidden !important;
 }
 
-@media (max-width: 425px) {
-    section nav,
-    section article {
-        width: 100%;
+ 
+    #banner {
+        background-image: url(../image/banner\ 1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+        height: 80vh;
     }
 
-    .container {
-        padding-left: 1%;
-        padding-right: 1%;
+    .legenda-container {
+        width: 30vw;  
+        float: right;
+        margin: 5vh 0 0 0;
+       
     }
-}
 
-#banner {
-    background-image: url('../images/banner.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: revert;
-    width: 100vw;
-    height: 100vh;
-}
+    .legenda {
+        background-color: rgba(255, 255, 255, 0.6);
+        margin-bottom: 5rem;
+        padding: 10px;
+        border-radius: 5px;
+    }
 
-.legenda-container {
-    width: 30vw;
-    float: right;
-    margin: 10vh 0 0 0;
-}
-
-.legenda {
-    background-color: rgba(255, 255, 255, .6);
-    margin-bottom: 5rem;
-    padding: 20px;
-    border-radius: 5px;
-    
-}
-
-.legenda h5,
-.legenda h4 {
+    .legenda h5,
+    .legenda h4 {
     color: #254159;
+    line-height: 150%;
 }
 
 .button-cta {
@@ -214,15 +206,15 @@ footer small {
     width: auto;
     text-decoration: none;
     font-weight: 300;
-    
+      
 }
-
 
 #saiba-mais {
     background-color: #eaeff3;
-    padding: 20px 0;
+    padding: 40px 0;
 
 }
+
 
 #saiba-mais p,
 #saiba-mais img {
@@ -233,8 +225,6 @@ footer small {
     margin-top: auto;
 }
 
-
-
 #perguntas-frequentes {
     background-color: #b8c8d6;
     padding-top: 40px;
@@ -243,7 +233,7 @@ footer small {
 
 
 dl {
-    margin: 45px 0 ;
+    margin: 45px 0;
 }
 
 
@@ -253,6 +243,7 @@ dt {
     font-size: 1.6rem;
     color: #254159;
     margin-bottom: 5px;
+   
 }
 
 dd {
@@ -260,3 +251,19 @@ dd {
     margin-bottom: 20px;
     font-size: 1.4rem;
 }
+
+
+/* Mobile First *//* Mobile First */
+
+  /* Smartphone */
+  @media (max-width: 425px){
+    nav,
+    article,
+    .coluna {
+      width: 100%;
+      min-width: 320px;
+    }
+  }
+  
+
+
