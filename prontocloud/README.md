@@ -38,9 +38,3 @@ marketing
 - Incluir hospedagem (servidor web)
 - Git - histórico de evolução (commits detalhados)
 
-### URL
-Uniform Resource Locator
-
-- URL amigável: humanos e mecanismo de busca
-https://shre.ink/xao9Ni
-https://ebaconline.com.br/front-end-profession
